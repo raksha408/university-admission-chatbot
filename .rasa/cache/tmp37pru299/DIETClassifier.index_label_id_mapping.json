@@ -1,0 +1,9 @@
+{
+  "0": "ask_admission",
+  "1": "ask_course_details",
+  "2": "ask_courses",
+  "3": "ask_fees",
+  "4": "ask_how_are_you",
+  "5": "greet",
+  "6": "out_of_scope"
+}

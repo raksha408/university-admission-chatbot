@@ -1,0 +1,52 @@
+version: "3.1"
+
+intents:
+  - greet
+  - ask_how_are_you
+  - ask_admission
+  - ask_courses
+  - ask_fees
+  - ask_course_details
+  - goodbye
+  - out_of_scope
+
+entities:
+  - course
+
+slots:
+  course:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: course
+
+responses:
+
+  utter_greet:
+    - text: "Hello! 👋 Welcome to our University Admission Assistant. How can I help you today?"
+
+  utter_how_are_you:
+    - text: "I'm doing great! 😊 Thanks for asking. How can I assist you with admissions or courses today?"
+
+  utter_ask_admission:
+    - text: "You can apply online through our official university website. Admission is based on eligibility criteria. Would you like details for a specific course?"
+
+  utter_ask_courses:
+    - text: "We offer the following programs: BCA, MBA, BSc IT, BCom, and MTech."
+
+  utter_ask_fees:
+    - text: "The fee details depend on the course. Please mention the course name to get exact fee information."
+
+  utter_course_details:
+    - text: "{course} is one of our popular programs. It includes industry-focused subjects and practical training to prepare students for professional careers."
+
+  utter_goodbye:
+    - text: "Goodbye! 👋 Have a great day!"
+
+  utter_out_of_scope:
+    - text: "Sorry, I can only help with admission, courses, and fee related queries."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

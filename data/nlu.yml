@@ -1,0 +1,79 @@
+version: "3.1"
+
+nlu:
+
+# ---------------- GREETING ----------------
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+    - good evening
+    - hi there
+    - hello bot
+
+# ---------------- HOW ARE YOU ----------------
+- intent: ask_how_are_you
+  examples: |
+    - how are you
+    - how are u
+    - are you fine
+    - how's it going
+    - are you doing well
+
+# ---------------- ADMISSION ----------------
+- intent: ask_admission
+  examples: |
+    - how can I apply
+    - what is the admission process
+    - how do I take admission
+    - tell me about admission
+    - admission details
+    - how to get admission
+    - procedure for admission
+
+# ---------------- COURSES LIST ----------------
+- intent: ask_courses
+  examples: |
+    - what courses are available
+    - list of courses
+    - what programs do you offer
+    - tell me available courses
+    - course details
+    - available programs
+    - show me courses
+
+# ---------------- FEES ----------------
+- intent: ask_fees
+  examples: |
+    - what is [MBA](course) fee
+    - fee structure
+    - how much is [BCA](course) fee
+    - tell me fees
+    - course fees
+    - what is the fee for [BSc IT](course)
+    - [MTech](course) fee details
+
+# ---------------- COURSE DETAILS ----------------
+- intent: ask_course_details
+  examples: |
+    - what is [BCA](course)
+    - tell me about [BCA](course)
+    - give me details of [BCA](course)
+    - explain [BCA](course)
+    - what is [MBA](course)
+    - tell me about [MBA](course)
+    - details of [BSc IT](course)
+    - information about [MTech](course)
+
+# ---------------- OUT OF SCOPE ----------------
+- intent: out_of_scope
+  examples: |
+    - what day is today
+    - what is the weather
+    - tell me a joke
+    - who is the prime minister
+    - what time is it
+    - sing a song
+    - who are you
