@@ -6,19 +6,19 @@ This project demonstrates core Conversational AI concepts including intents, sto
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 👋 Greets users
-- 📚 Provides course list
-- 📝 Explains admission process
-- 💰 Shares fee details
-- ℹ️ Gives course-specific information
-- 🚫 Handles out-of-scope queries
-- 👋 Ends conversation politely
+-  Greets users
+-  Provides course list
+-  Explains admission process
+-  Shares fee details
+-  Gives course-specific information
+-  Handles out-of-scope queries
+-  Ends conversation politely
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python
 - Rasa 3.x
@@ -28,7 +28,7 @@ This project demonstrates core Conversational AI concepts including intents, sto
 
 ---
 
-## 📂 Project Structure (Descriptive)
+##  Project Structure (Descriptive)
 
 ### 1️⃣ `actions/`
 This folder contains custom action files.
@@ -64,7 +64,7 @@ Project documentation file.
 
 ---
 
-## 🖼️ Chatbot Preview
+##  Chatbot Preview
 
 ![Rasa Chatbot Screenshot](Screenshot/rasa_chatbot_1.png)
 
@@ -73,7 +73,7 @@ Project documentation file.
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### Step 1: Clone the Repository
 
@@ -109,7 +109,7 @@ rasa shell
 
 ---
 
-## 💬 Example User Queries
+##  Example User Queries
 
 - Hi
 - What courses are available?
@@ -119,7 +119,7 @@ rasa shell
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 - Add web interface
 - Integrate database for dynamic responses
@@ -128,7 +128,7 @@ rasa shell
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 Shriraksha Kulkarni
 
